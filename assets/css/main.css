@@ -1,0 +1,182 @@
+.csas-copy-link {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 3px;
+  position: relative;
+  transition: 0.1s all linear;
+}
+.csas-copy-link:hover {
+
+  transform: translate3d(0,-2px,0);
+}
+.csas-unavailable, .csas-unavailable * {
+  cursor: none;
+  color: grey;
+  text-decoration: line-through;
+}
+.csas-carts-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  flex-wrap: wrap;
+  
+  gap: 10px;
+  max-width: 100%;
+}
+.csas-cart-box {
+  width: calc(33.33% - 10px );
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.csas-cart-box p {
+    padding: 0;
+    margin: 0;
+}
+.csas-cart-box:nth-child( even ) {
+  background-color: #f4eded;
+}
+.cart-line-item-wrapper {
+  display: flex;
+}
+.csas-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: auto;
+}
+
+/* Share panel container */
+.csas-share-panel{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:8px;
+}
+
+/* Meta area (URL + copy + note) */
+.csas-share-meta{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+/* URL row */
+.csas-share-url-wrap{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0; /* allow children to shrink */
+}
+
+/* URL input: prevent overflow */
+.csas-share-url{
+  flex:1 1 auto;
+  min-width:0;
+  padding:.5rem .6rem;
+  border:1px solid #d0d0d0;
+  border-radius:6px;
+  background:#fff;
+  box-sizing:border-box;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* Copy button */
+.csas-share-copy{
+  flex:0 0 auto;
+  padding:.5rem .8rem;
+  border:1px solid #d0d0d0;
+  border-radius:6px;
+  background:#f7f7f7;
+  cursor:pointer;
+}
+
+/* Share targets list — FLEX, wraps, no overflow */
+.csas-share-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+/* Each item: base at 160px, wrap as needed */
+.csas-share-item{
+  margin:0;
+}
+
+/* Button styling */
+.csas-share-btn{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  border: 0;
+  background:#fff;
+  text-decoration:none;
+  cursor:pointer;
+  box-sizing:border-box;
+  min-height:40px;  /* touch-friendly */
+}
+
+.csas-share-btn:focus{
+  outline:2px solid #0a84ff;
+  outline-offset:2px;
+}
+
+/* Icon sizing (works for <svg> and <img>) */
+.csas-share-icon{
+  display:inline-flex;
+}
+.csas-share-icon img{
+  display:block;
+  width:30px;
+  height:30px;
+}
+
+/* Label (allow shrinking in tight spaces) */
+.csas-share-label{
+  font-size:14px;
+  line-height:1.2;
+  min-width:0;
+}
+
+/* Feedback line */
+.csas-share-feedback{
+  min-height:1.2em;
+  font-size:12px;
+  color:#007a3d;
+  overflow-wrap:break-word;
+}
+
+@media (hover:hover){
+  .csas-share-btn:hover{ background:#f6faff; }
+}
+
+/* Visibility helper */
+.csas-share-item.hidden{ display:none; }
+
+.xd-body-inner {
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .csas-cart-box {
+        width: 49.9%;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .csas-cart-box {
+        width: 100%;
+    }
+}

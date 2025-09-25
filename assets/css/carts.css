@@ -1,0 +1,56 @@
+.csas-cart-items {
+  list-style: none;
+  padding: 0;
+}
+.csas-cart-qty {
+  width: 2ch;
+  display: inline-block;
+}
+.csas-times {
+  width: 2ch;
+  display: inline-block;
+}
+.csas-cart-totals {
+  margin-top: auto;
+}
+.csas-actions {
+  column-gap: 5px;
+  display: flex;
+  margin-top: auto;
+}
+.csas-cart-totals ~ .csas-actions {
+  margin-top: 0;
+}
+
+.csas-loader {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border: 5px solid black;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@media (hover:hover){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 512px) {
+
+}

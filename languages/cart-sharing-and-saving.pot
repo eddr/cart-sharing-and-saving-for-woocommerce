@@ -1,0 +1,511 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart Sharing and Saving\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-24 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: ebcsas"
+
+#. Description of the plugin
+msgid "A plugin to save and share user carts for logged-in users and guests."
+msgstr ""
+
+#: admin/class-options.php:260
+msgid "Add to My Carts"
+msgstr ""
+
+#: admin/options-page.php:480
+msgid "Allows sharing and saving WooCommerce carts"
+msgstr ""
+
+#: admin/class-options.php:351
+msgid "Applying cart..."
+msgstr ""
+
+#: display-cart.php:307
+msgid "Cart"
+msgstr ""
+
+#: admin/class-options.php:398
+msgid "Cart applied successfully and the items will show on the cart page."
+msgstr ""
+
+#: admin/class-options.php:395
+msgid "Cart deleted successfully."
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:41
+msgid "Cart ID"
+msgstr ""
+
+#: admin/class-options.php:394
+msgid ""
+"Cart saved successfully. Please check <a href=\"{saved_carts_url}\">saved "
+"carts page</a> to see them."
+msgstr ""
+
+#: admin/options-page.php:482
+msgid "Cart Sharing and Saving"
+msgstr ""
+
+#. Name of the plugin
+msgid "Cart Sharing and Saving For WooCommerce"
+msgstr ""
+
+#: admin/classes/class-saved-carts-products-list-table.php:45
+msgid "Cart#"
+msgstr ""
+
+#: admin/carts-info.php:43
+msgid "Carts"
+msgstr ""
+
+#: admin/carts-info.php:41
+msgid "Carts Info"
+msgstr ""
+
+#: cart-sharing-and-saving.php:129
+msgid "Close"
+msgstr ""
+
+#: display-cart.php:151 display-cart.php:279
+msgid "Coupons"
+msgstr ""
+
+#: admin/class-options.php:250
+#: admin/classes/class-saved-carts-list-table.php:132
+msgid "Delete"
+msgstr ""
+
+#: admin/class-options.php:354
+msgid "Deleting cart..."
+msgstr ""
+
+#. Author of the plugin
+msgid "Earlybirds"
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:45
+msgid "Expired"
+msgstr ""
+
+#: admin/carts-info.php:111
+msgid "Guest"
+msgstr ""
+
+#: admin/class-options.php:393
+msgid ""
+"Guests are not allowed to save carts. Please create an account or contact "
+"the site support."
+msgstr ""
+
+#: admin/class-options.php:240
+msgid "Load"
+msgstr ""
+
+#: admin/class-options.php:391 admin/class-options.php:392
+msgid ""
+"Maximum number of carts has been saved. Please check <a "
+"href=\"{saved_carts_url}\">the saved carts page</a> and consider deleting "
+"some."
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:121
+msgid "no"
+msgstr ""
+
+#: display-cart.php:372 display-cart.php:391
+msgid "No cart to share."
+msgstr ""
+
+#: display-cart.php:140
+msgid "No items."
+msgstr ""
+
+#: class-logic.php:390
+msgid "Operation not supported!"
+msgstr ""
+
+#: admin/options-page.php:770
+msgctxt "options"
+msgid ""
+"A message the user will see after a cart has been successfully applied and "
+"loaded into the current WC cart."
+msgstr ""
+
+#: admin/options-page.php:759
+msgctxt "options"
+msgid "A message the user will see after a cart has been successfully deleted."
+msgstr ""
+
+#: admin/options-page.php:737
+msgctxt "options"
+msgid "A message the user will see after a successful cart saving."
+msgstr ""
+
+#: admin/options-page.php:499
+msgctxt "options"
+msgid "Allow cart saving"
+msgstr ""
+
+#: admin/options-page.php:501
+msgctxt "options"
+msgid "Allow guests to save carts"
+msgstr ""
+
+#: admin/options-page.php:500
+msgctxt "options"
+msgid "Allow sharing"
+msgstr ""
+
+#: admin/class-options.php:286
+msgctxt "options"
+msgid "Bottom"
+msgstr ""
+
+#: admin/options-page.php:647
+msgctxt "options"
+msgid "Button Texts"
+msgstr ""
+
+#: admin/options-page.php:768
+msgctxt "options"
+msgid "Cart applied message"
+msgstr ""
+
+#: admin/options-page.php:757
+msgctxt "options"
+msgid "Cart deleted message"
+msgstr ""
+
+#: admin/options-page.php:689
+msgctxt "options"
+msgid "Cart expiration in hours"
+msgstr ""
+
+#: admin/options-page.php:779
+msgctxt "options"
+msgid "Cart page visibility"
+msgstr ""
+
+#: admin/options-page.php:735
+msgctxt "options"
+msgid "Cart saved message"
+msgstr ""
+
+#: admin/options-page.php:746
+msgctxt "options"
+msgid "Cart shared message"
+msgstr ""
+
+#: admin/options-page.php:798
+msgctxt "options"
+msgid "Checkout page Visibility"
+msgstr ""
+
+#: admin/options-page.php:820
+msgctxt "options"
+msgid "Choose where the buttons will be visible in the mini cart frame."
+msgstr ""
+
+#: admin/options-page.php:781
+msgctxt "options"
+msgid "Choose where the buttons will be visible on the cart page."
+msgstr ""
+
+#: admin/options-page.php:800
+msgctxt "options"
+msgid "Choose where the buttons will be visible on the checkout page."
+msgstr ""
+
+#: admin/class-options.php:144
+msgctxt "options"
+msgid "Delete"
+msgstr ""
+
+#: admin/options-page.php:569 admin/options-page.php:573
+msgctxt "options"
+msgid "Enabled"
+msgstr ""
+
+#: admin/options-page.php:724
+msgctxt "options"
+msgid "Guest not allowed to save"
+msgstr ""
+
+#: admin/options-page.php:599 admin/options-page.php:626
+msgctxt "options"
+msgid ""
+"in the target page in order to display the saved carts. Also, please exclude "
+"this page from page cache."
+msgstr ""
+
+#: admin/options-page.php:665
+msgctxt "options"
+msgid "Limit of saved carts for guests"
+msgstr ""
+
+#: admin/options-page.php:678
+msgctxt "options"
+msgid "Limit of saved carts for logged-in users"
+msgstr ""
+
+#: admin/options-page.php:700
+msgctxt "options"
+msgid "Limit reached for guests"
+msgstr ""
+
+#: admin/options-page.php:713
+msgctxt "options"
+msgid "Limit reached for logged-in users"
+msgstr ""
+
+#: admin/class-options.php:143
+msgctxt "options"
+msgid "Load"
+msgstr ""
+
+#: admin/class-options.php:285
+msgctxt "options"
+msgid "Manual/None"
+msgstr ""
+
+#: admin/options-page.php:702
+msgctxt "options"
+msgid "Message displayed when guests reach the saved cart limit."
+msgstr ""
+
+#: admin/options-page.php:726
+msgctxt "options"
+msgid "Message displayed when guests try to save when not allowed."
+msgstr ""
+
+#: admin/options-page.php:715
+msgctxt "options"
+msgid "Message displayed when logged-in users reach the saved cart limit."
+msgstr ""
+
+#: admin/options-page.php:818
+msgctxt "options"
+msgid "Mini cart visibility"
+msgstr ""
+
+#: admin/options-page.php:631
+msgctxt "options"
+msgid "Options"
+msgstr ""
+
+#: admin/options-page.php:599 admin/options-page.php:626
+msgctxt "options"
+msgid "Please use the shortcode"
+msgstr ""
+
+#: admin/class-options.php:141
+msgctxt "options"
+msgid "Save"
+msgstr ""
+
+#: admin/options-page.php:580
+msgctxt "options"
+msgid "Saved Carts page"
+msgstr ""
+
+#: admin/options-page.php:609
+msgctxt "options"
+msgid ""
+"Select the page to display a shared cart. It is required. The plugin does "
+"not automatically creates a Saved Carts Page in order to not meddle. Use the "
+"shortcode to show the cart."
+msgstr ""
+
+#: admin/options-page.php:583
+msgctxt "options"
+msgid ""
+"Select the page to display the visitors' saved carts. It is required. The "
+"plugin does not automatically creates a Saved Carts Page in order to not "
+"meddle. Use the shortcode to show the cart."
+msgstr ""
+
+#: admin/options-page.php:518
+msgctxt "options"
+msgid "Set button's text."
+msgstr ""
+
+#: admin/options-page.php:691
+msgctxt "options"
+msgid ""
+"Set how many hours pass before saved cart is expired. Use 0 for no "
+"expiration."
+msgstr ""
+
+#: admin/options-page.php:668
+msgctxt "options"
+msgid "Set the maximum number of carts that can be saved by guests."
+msgstr ""
+
+#: admin/options-page.php:680
+msgctxt "options"
+msgid "Set the maximum number of carts that can be saved by logged-in users."
+msgstr ""
+
+#: admin/class-options.php:142
+msgctxt "options"
+msgid "Share"
+msgstr ""
+
+#: admin/options-page.php:502
+msgctxt "options"
+msgid "Share applied coupons"
+msgstr ""
+
+#: admin/options-page.php:606
+msgctxt "options"
+msgid "Share Cart page"
+msgstr ""
+
+#: admin/options-page.php:748
+msgctxt "options"
+msgid "The shared cart message."
+msgstr ""
+
+#: admin/class-options.php:287
+msgctxt "options"
+msgid "Top"
+msgstr ""
+
+#: admin/options-page.php:503
+msgctxt "options"
+msgid "Use WC styles for buttons"
+msgstr ""
+
+#: admin/options-page.php:789
+msgctxt "options"
+msgid ""
+"Will only work for classic WC cart widget. Won't work for the blocks cart "
+"widget. For WC blocks cart widget, use the editor to add saving and sharing "
+"buttons using [csas_share_button] and [csas_save_button]."
+msgstr ""
+
+#: admin/options-page.php:808
+msgctxt "options"
+msgid ""
+"Will only work for classic WC checkout widget. Won't work for the blocks "
+"checkout widget. For WC blocks checkout widget, use the editor to add saving "
+"and sharing buttons using [csas_share_button] and [csas_save_button]."
+msgstr ""
+
+#: admin/options-page.php:828
+msgctxt "options"
+msgid ""
+"Will only work for widgets that use WC native "
+"woocommerce_widget_shopping_cart_after/before_buttons hooks."
+msgstr ""
+
+#: admin/options-page.php:559
+msgid "Plugin Version"
+msgstr ""
+
+#: admin/classes/class-saved-carts-products-list-table.php:44
+msgid "Product"
+msgstr ""
+
+#: admin/carts-info.php:44 admin/classes/class-saved-carts-list-table.php:43
+msgid "Products"
+msgstr ""
+
+#: mini-cart.php:45
+msgid "Save Cart"
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:25
+msgid "Saved Cart"
+msgstr ""
+
+#: admin/carts-info.php:92 admin/classes/class-saved-carts-list-table.php:26
+msgid "Saved Carts"
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:44
+msgid "Saved On"
+msgstr ""
+
+#: admin/classes/class-saved-carts-products-list-table.php:29
+msgid "Saved Products' Cart"
+msgstr ""
+
+#: admin/carts-info.php:156
+#: admin/classes/class-saved-carts-products-list-table.php:30
+msgid "Saved Products' Carts"
+msgstr ""
+
+#: admin/class-options.php:353
+msgid "Saving cart..."
+msgstr ""
+
+#: admin/carts-info.php:119 admin/carts-info.php:175
+msgid "Search"
+msgstr ""
+
+#: admin/carts-info.php:118
+msgid "Search by Cart ID..."
+msgstr ""
+
+#: admin/carts-info.php:98 admin/carts-info.php:162
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: admin/options-page.php:587 admin/options-page.php:613
+msgid "Select a page"
+msgstr ""
+
+#: cart-sharing-and-saving.php:78
+msgid "Settings"
+msgstr ""
+
+#: admin/class-options.php:230
+msgid "Share"
+msgstr ""
+
+#: mini-cart.php:46
+msgid "Share Cart"
+msgstr ""
+
+#: admin/class-options.php:352
+msgid "Sharing cart..."
+msgstr ""
+
+#: admin/class-options.php:397
+msgid "this link"
+msgstr ""
+
+#: display-cart.php:171
+msgid "Total"
+msgstr ""
+
+#: display-cart.php:296
+msgid "Total:"
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:42
+msgid "User ID"
+msgstr ""
+
+#: admin/classes/class-saved-carts-list-table.php:121
+msgid "yes"
+msgstr ""
+
+#. %s: page ID
+#: admin/class-options.php:397
+#, php-format
+msgid "You can share your cart via %s{copy_link_button}"
+msgstr ""

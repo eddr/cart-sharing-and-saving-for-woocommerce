@@ -1,0 +1,75 @@
+.visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0,0,0,0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+}
+.csas-settings-wrap tr {
+    display: flex;
+}
+.csas-settings-wrap td {
+
+    width: 100%;
+}
+.csas-settings-line:not(.non-flexed) {
+
+    margin-bottom: 16px;
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    gap: 10px;
+
+}
+.csas-settings-line:not(.non-justified) {
+    justify-content: space-between;
+}
+th[scope="row"] {
+
+    display: flex;
+    justify-content: space-between;
+}
+th[scope="row"] label {
+    max-width: calc( 100% - 15px );
+}
+.settings-line-desc {
+
+    display: block;
+    font-style: italic;
+    color: #999;
+}
+.csas-settings-wrap input[type='number'] {
+    width: 64px;
+}
+.csas-settings-wrap input { text-align: center; }
+
+.setting-text {
+    max-width: 400px;
+    width: 100%;
+}
+.setting-text label {
+    width: 200px;
+    display: inline-block;
+}
+
+.search-segments-wrapper {
+    display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.search-segment { min-width: 33%;}
+.search-segment > * { width: 100% !important; height: 40px; }
+
+.csas-settings-wrap textarea {
+    width: 500px;
+    height: 100px;
+    max-width: 100%;
+}
+.csas-settings-wrap .csas-searchbox ~ span { width: 100% !important; }
+.csas-settings-wrap .radio-option-wrapper label { vertical-align: top;  }
