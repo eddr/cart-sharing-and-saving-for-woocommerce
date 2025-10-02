@@ -13,8 +13,8 @@ namespace EB\CSAS\Frontend\Display;
 
 use EB\CSAS\Options;
 
-add_shortcode( 'display_saved_carts', __NAMESPACE__ . '\csas_display_saved_carts_sc' );
-add_shortcode( 'display_shared_cart', __NAMESPACE__ . '\csas_shared_cart_sc' );
+add_shortcode( 'csas_display_saved_carts', __NAMESPACE__ . '\csas_display_saved_carts_sc' );
+add_shortcode( 'csas_display_shared_cart', __NAMESPACE__ . '\csas_shared_cart_sc' );
 
 /**
  * Build default buttons data (label => css class).
@@ -444,6 +444,7 @@ function rest_get_carts_html( \WP_REST_Request $p_request ) { // phpcs:ignore Ge
  * @return void
  */
 function register_rest_routes() {
+
 	register_rest_route(
 		'csas/v1',
 		'/carts-html',

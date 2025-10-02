@@ -5,7 +5,7 @@
  * @package CSAS
  */
 
-namespace EB\CSAS\SHORTCODES;
+namespace EB\CSAS\Shortcodes;
 
 use EB\CSAS\Options;
 
@@ -18,9 +18,6 @@ function create_shortcodes() {
 
 	add_shortcode( 'csas_share_button', __NAMESPACE__ . '\share_button_func' );
 	add_shortcode( 'csas_save_button', __NAMESPACE__ . '\save_button_func' );
-	add_shortcode( 'csas_guest_not_allowed_message', __NAMESPACE__ . '\csas_guest_not_allowed_message_func' );
-	add_shortcode( 'guest_cart_limit_reached_message', __NAMESPACE__ . '\guest_cart_limit_reached_message_func' );
-	add_shortcode( 'guest_not_allowed_to_save_message', __NAMESPACE__ . '\guest_not_allowed_to_save_message_func_func' );
 }
 
 /**
@@ -60,34 +57,4 @@ function save_button_func() {
 
 	$_default_title = Options::get_option( 'csas_save_button_title', 'Save' );
 	return button_func( $_default_title, 'save' );
-}
-
-/**
- * Returns a message when a guest is not allowed.
- *
- * @return string Message HTML.
- */
-function guest_not_allowed_message_func() {
-
-	return '<div class="csas-guest-not-allowed-message">Guests are not allowed to perform this action.</div>';
-}
-
-/**
- * Returns message when guest cart limit is reached.
- *
- * @return string Message HTML.
- */
-function guest_cart_limit_reached_message_func() {
-
-	return '<div class="csas-guest-cart-limit-reached-message">Guest cart limit reached.</div>';
-}
-
-/**
- * Returns message when guest is not allowed to save.
- *
- * @return string Message HTML.
- */
-function guest_not_allowed_to_save_message_func() {
-
-	return '<div class="csas-guest-not-allowed-to-save-message">Guests are not allowed to save items.</div>';
 }

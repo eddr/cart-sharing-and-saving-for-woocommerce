@@ -9,6 +9,10 @@
 
 namespace EB\CSAS;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use EB\CSAS\Options;
 
 /**

@@ -4,18 +4,21 @@
  * Plugin URI:
  * Description: A plugin to save and share user carts for logged-in users and guests.
  * Version: 0.5
- * Author: Earlybirds
+ * Requires at least: 5.9
+ * Requires PHP: 7.4
+ * Author: eddr
  * Author URI:
+ * Requires Plugins: woocommerce
  * Text Domain: cart-sharing-and-saving-for-woocommerce
  * Domain Path: /languages
  * License: GPLv3
  *
- * Woo:
- * WC requires at least: 5.2.X
- * WC tested up to: 9.3.3
- *
  * @package Cart_Sharing_And_Saving
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 
 use EB\CSAS\Options;
 

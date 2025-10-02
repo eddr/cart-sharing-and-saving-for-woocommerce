@@ -7,6 +7,10 @@
 
 namespace EB\CSAS\CRON_SCHEDULER;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * Activates scheduling via WC action-scheduler
  *

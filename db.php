@@ -44,7 +44,7 @@ function get_carts_meta_table_name() {
 function create_custom_csas_table() {
 
 	global $_custom_db_version;
-	$_current_db_version = get_option( 'custom_csas_db_version', 0 );
+	$_current_db_version = get_option( 'csas_db_version', 0 );
 
 	if ( $_current_db_version < $_custom_db_version ) {
 
@@ -96,6 +96,6 @@ function create_custom_csas_table() {
 
 		dbDelta( $_sql );
 
-		update_option( 'custom_csas_db_version', $_custom_db_version );
+		update_option( 'csas_db_version', $_custom_db_version );
 	}
 }

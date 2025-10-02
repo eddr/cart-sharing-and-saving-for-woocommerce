@@ -1,17 +1,15 @@
 <?php
 /**
- * Auto-fixed header.
- *
- * @package EBCSAS
- */
-
-/**
  * Plugin's options.
  *
  * @package EBCSAS
  */
 
 namespace EB\CSAS;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 
 /**
  * Plugin's options class.

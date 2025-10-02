@@ -7,6 +7,10 @@
 
 namespace EB\CSAS\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use EB\CSAS;
 
 add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\enqueue_admin_styles' );
@@ -140,7 +144,10 @@ function register_settings() {
 	register_setting(
 		'ebcsas-settings-group',
 		$_options_prefix,
-		array( 'sanitize_callback' => __NAMESPACE__ . '\sanitize_options' )
+		array(
+			'type'              => 'array',
+			'sanitize_callback' => __NAMESPACE__ . '\sanitize_options',
+		)
 	);
 }
 
